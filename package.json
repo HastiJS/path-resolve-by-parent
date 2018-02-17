@@ -1,0 +1,47 @@
+{
+  "name": "path-resolve-by-parent",
+  "version": "0.1.0",
+  "description": "Resolve path or paths by module parent path.",
+  "keywords": [
+    "module",
+    "resolve",
+    "parent"
+  ],
+  "bugs": {
+    "url": "https://github.com/HastiJS/path-resolve-by-parent/issues"
+  },
+  "license": "MIT",
+  "author": "Adel Armand <adel.armand@gmail.com>",
+  "files": [
+    "path-resolve-by-parent.js",
+    "package.json",
+    "README",
+    "LICENSE",
+    "CHANGELOG"
+  ],
+  "main": "path-resolve-by-parent.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HastiJS/path-resolve-by-parent"
+  },
+  "dependencies": {
+    "module-parent-id": "0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~4.14.0",
+    "eslint-plugin-jsdoc": "~3.3.1",
+    "mocha": "~5.0.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "unit": "mocha",
+    "test": "npm run lint && npm run unit"
+  }
+}
